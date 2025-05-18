@@ -42,7 +42,9 @@ print("3.Exit")
 while(True):
     choice = int(input("Enter You Choice : "))
     if choice == 1:
-        print("Admin....")
+        x = input("Enter Password : ")
+        if x=='1221':
+            print("Adim....")
     elif choice == 2:
         print("customer....")
     elif choice == 3:
