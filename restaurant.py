@@ -29,3 +29,23 @@ class Adimin(User):
 class Restaurent:
     def __init__(self,name):
         self.name = name
+
+
+
+
+print("\n\n")
+print("*************Wellcome To The Restaurant*************")
+print("1. Admin Login")
+print("2. Customer Login")
+print("3.Exit")
+
+while(True):
+    choice = int(input("Enter You Choice : "))
+    if choice == 1:
+        print("Admin....")
+    elif choice == 2:
+        print("customer....")
+    elif choice == 3:
+        break
+    else:
+        print("Invalid Choice")
